@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopFramework2", "ShopFramework2\ShopFramework2.csproj", "{B9D73089-7760-4629-A66D-6BF8C142C6C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{5CE7AC07-B2F4-43FD-A649-C692D28E8C19}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{8F443261-3B59-42BB-B855-8D088A9D2A2E}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{72F4EA11-90AB-436B-A853-1C99D3BA6DFA}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Templates\ShopFramework2.json = PublishScripts\Templates\ShopFramework2.json
+		PublishScripts\Templates\ShopFramework2.param.dev.json = PublishScripts\Templates\ShopFramework2.param.dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9D73089-7760-4629-A66D-6BF8C142C6C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9D73089-7760-4629-A66D-6BF8C142C6C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9D73089-7760-4629-A66D-6BF8C142C6C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9D73089-7760-4629-A66D-6BF8C142C6C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8F443261-3B59-42BB-B855-8D088A9D2A2E} = {5CE7AC07-B2F4-43FD-A649-C692D28E8C19}
+		{72F4EA11-90AB-436B-A853-1C99D3BA6DFA} = {5CE7AC07-B2F4-43FD-A649-C692D28E8C19}
+	EndGlobalSection
+EndGlobal
